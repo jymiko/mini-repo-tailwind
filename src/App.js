@@ -1,22 +1,24 @@
-import React from 'react';
-import './assets/main.css';
+import React from 'react'
+import './assets/main.css'
+import { Button } from 'antd'
 
 function App() {
   return (
     <div className="h-64">
-      <div className="p-4 m-4 bg-green-600">
+      <div className="p-4 m-4">
         <h1 className="text-2xl font-bold text-white">Tailwind Simple Demo</h1>
         <div className="px-6 py-6">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">category 1</span>
+          <span className="inline-block bg-gray-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">category 1</span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">category 2</span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">category 3</span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">category 4</span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">category 5</span>
+          <Button type="danger">Primary Button</Button>
         </div>
       </div>
-      <div className="p-4 m-4 w-full rounded float-right">
+      {/* <div className="p-4 m-4 w-full rounded float-right">
         testing
-      </div>
+      </div> */}
       <div className="flex m-4">
         <div className="w-1/4 rounded overflow-hidden shadow-lg m-4">
           <img className="w-full" src="https://images.unsplash.com/photo-1576457412608-a16abf6d110e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"/>
